@@ -49,7 +49,7 @@ const Navbar = () => {
   
         {/* Navigation Links (Mobile Dropdown) */}
         {isMenuOpen && (
-          <div className="absolute top-26 left-0 w-full bg-navy shadow-lg md:hidden gap-8">
+          <div className="absolute top-26 left-0 w-full bg-white shadow-lg md:hidden gap-8">
             <div className="flex flex-col items-start space-y-4 p-4">
               <a
                 href="#home"
