@@ -14,3 +14,9 @@ export const EXPERIENCES = [
     technologies: ["React", "Next.js", "Tailwind CSS", ]
   }
 ];
+
+export const CONTACT = {
+  address: "New Delhi,India ",
+  phoneNo: "+91 8595947790 ",
+  email: "vineetsainiii007@gmail.com",
+};

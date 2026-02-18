@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar"
 import ScrollToTop from 'react-scroll-to-top'
 import Technologies from "./components/Technologies"
 import Experience from "./components/Experience"
+import Contact from "./components/Contact"
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Hero />
           <Technologies/>
           <Experience/>
+          <Contact/>
           
         </div>
 
