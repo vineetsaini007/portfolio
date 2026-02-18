@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constant";
-import profilephoto from "../assets/profilephoto.jpg";
+import profilephoto from "../assets/profilepic.jpg";
 import { motion } from "framer-motion";
 //import { SiLeetcode } from "react-icons/si";
 //import { SiGeeksforgeeks } from "react-icons/si";
