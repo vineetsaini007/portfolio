@@ -32,9 +32,7 @@ const Navbar = () => {
                 Home
             </Link>
           </div>
-          <div className="text-gray-350 hover:text-gray-600 text-2xl">
-            <Link className="cursor-pointer " to="about" spy={true} smooth={true} offset={-100} duration={600} isDynamic={true} >About</Link>
-          </div>
+         
           <div className="text-gray-350 hover:text-gray-600 text-2xl">
             <Link className="cursor-pointer " to="skills" spy={true} smooth={true} offset={-100} duration={600} isDynamic={true} >Skills</Link>
           </div>
