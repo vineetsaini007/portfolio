@@ -15,7 +15,7 @@ const container = (delay) => ({
 
 const Hero = () => {
   return (
-    <div className=" pb-4 lg:mb-35" id="home">
+    <div className=" pb-4 mb-9 lg:mb-35" id="home">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
         <div className="flex flex-col items-center lg:items-start">
@@ -28,7 +28,7 @@ const Hero = () => {
             variants={container(0.5)}
             initial="hidden"
             animate="visible"
-            className="text-purple-500 bg-clip-text text-4xl tracking-tight ">
+            className="text-red-400 bg-clip-text text-4xl tracking-tight ">
                 Hello World!!</motion.span>
             <motion.p variants={container(1)}
             initial="hidden"
