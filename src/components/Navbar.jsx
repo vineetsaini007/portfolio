@@ -58,13 +58,7 @@ const Navbar = () => {
               >
                 Home
               </a>
-              <a
-                href="#about"
-                className="block text-gray-400 hover:text-purple-500 w-full"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                About
-              </a>
+              
               <a
                 href="#skills"
                 className="block text-gray-400 hover:text-purple-500 w-full"
