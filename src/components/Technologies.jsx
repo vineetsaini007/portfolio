@@ -94,7 +94,7 @@ const Technologies = () => {
               <Icon className={`text-4xl md:text-6xl lg:text-7xl ${skill.color}`} />
 
               {/* Hover Name */}
-              <span className="absolute -bottom-8 md:-bottom-10 opacity-0 group-hover:opacity-100 group-hover:translate-y-2 transition-all duration-300 text-xs md:text-sm font-medium text-black whitespace-nowrap">
+              <span className="absolute -bottom-8 text-black md:-bottom-10 opacity-0 group-hover:opacity-100 group-hover:translate-y-2 transition-all duration-300 text-xs md:text-sm font-medium text-black whitespace-nowrap">
                 {skill.name}
               </span>
             </motion.div>
