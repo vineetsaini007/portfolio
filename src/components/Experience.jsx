@@ -27,7 +27,7 @@ const Experience = () => {
                 transition={{duration: 1}}
                 className="w-full max-w-xl lg:w-3/4">
                 <a href="" target="_blank"><h6 className="mb-2 font-semibold">{experience.role} - 
-                    <span className="text-sm text-purple-100"> {experience.company}</span>
+                    <span className="text-sm text-red-600"> {experience.company}</span>
                 </h6></a>
                 <p className="mb-4 text-neutral-400">{experience.description}</p>
                 {experience.technologies.map((tech, index) => (
