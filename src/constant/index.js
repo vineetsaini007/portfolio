@@ -23,8 +23,7 @@ export const PROJECTS = [
     title: "CryptoRadar",
     image: project1,
     link: "https://cryyptoradar.netlify.app/",
-    description:
-      "This project estimates crowd size from images and categorizes risk zones (Low, Medium, Moderate, High). It uses transfer learning with VGG16 and a regression head to predict the number of people in an image.",
+    description:"CryptoRadar is a responsive crypto tracking app built with React that fetches real-time market data, lets users search coins, and visualize prices with interactive charts for quick insights into cryptocurrency trends.",
     technologies: ["React","Google-Charts", "Tensorflow"],
     github: "https://github.com/vineetsaini007/CryptoRadar"
   }]
