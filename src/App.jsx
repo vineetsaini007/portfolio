@@ -4,6 +4,7 @@ import ScrollToTop from 'react-scroll-to-top'
 import Technologies from "./components/Technologies"
 import Experience from "./components/Experience"
 import Contact from "./components/Contact"
+import Projects from "./components/Projects"
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <Hero />
           <Technologies/>
           <Experience/>
+          <Projects/>
           <Contact/>
           
         </div>

@@ -1,3 +1,6 @@
+import project1 from "../assets/projects/project1.png"
+
+
 export const HERO_CONTENT = `I am a final year student pursuing B.Tech. in Computer Science & Engineering from Delhi Technical Campus , Guru Gobind Singh Indraprastha University.  
 I’m a curious learner and passionate Software Developer in the making. I’m on a journey to turn my love for coding into solutions that make a difference.
 I thrive on tackling challenges, learning something new every day, and bringing creative ideas to life through technology. Whether it’s solving complex problems or crafting intuitive solutions, I’m always up for the adventure!
@@ -14,6 +17,19 @@ export const EXPERIENCES = [
     technologies: ["React", "Next.js", "Tailwind CSS", ]
   }
 ];
+
+export const PROJECTS = [
+ {
+    title: "CryptoRadar",
+    image: project1,
+    link: "https://cryyptoradar.netlify.app/",
+    description:
+      "This project estimates crowd size from images and categorizes risk zones (Low, Medium, Moderate, High). It uses transfer learning with VGG16 and a regression head to predict the number of people in an image.",
+    technologies: ["React","Google-Charts", "Tensorflow"],
+    github: "https://github.com/vineetsaini007/CryptoRadar"
+  }]
+
+
 
 export const CONTACT = {
   address: "New Delhi,India ",
