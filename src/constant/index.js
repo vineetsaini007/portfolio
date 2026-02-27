@@ -1,4 +1,5 @@
 import project1 from "../assets/projects/project1.png"
+import project2 from "../assets/projects/project2.png"
 
 
 export const HERO_CONTENT = `I am a final year student pursuing B.Tech. in Computer Science & Engineering from Delhi Technical Campus , Guru Gobind Singh Indraprastha University.  
@@ -18,13 +19,20 @@ export const EXPERIENCES = [
   }
 ];
 
-export const PROJECTS = [
+export const PROJECTS = [{
+    title: "CodeSyncX",
+    image: project2,
+    link: "https://codesyncx.netlify.app/",
+    description:"CodeSyncX is a responsive collaborative coding platform built with React that enables real-time code editing and sharing among multiple users.",
+    technologies: ["React","Socket.io", "CodeMirror"],
+    github: "https://github.com/vineetsaini007/CodeSyncX"
+  },
  {
     title: "CryptoRadar",
     image: project1,
     link: "https://cryyptoradar.netlify.app/",
     description:"CryptoRadar is a responsive crypto tracking app built with React that fetches real-time market data, lets users search coins, and visualize prices with interactive charts for quick insights into cryptocurrency trends.",
-    technologies: ["React","Google-Charts", "Tensorflow"],
+    technologies: ["React","Google-Charts", "CoinGecko API"],
     github: "https://github.com/vineetsaini007/CryptoRadar"
   }]
 
