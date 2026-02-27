@@ -1,6 +1,6 @@
 import project1 from "../assets/projects/project1.png"
 import project2 from "../assets/projects/project2.png"
-
+import project3 from "../assets/projects/project3.png"
 
 export const HERO_CONTENT = `I am a final year student pursuing B.Tech. in Computer Science & Engineering from Delhi Technical Campus , Guru Gobind Singh Indraprastha University.  
 I’m a curious learner and passionate Software Developer in the making. I’m on a journey to turn my love for coding into solutions that make a difference.
@@ -32,8 +32,16 @@ export const PROJECTS = [{
     image: project1,
     link: "https://cryyptoradar.netlify.app/",
     description:"CryptoRadar is a responsive crypto tracking app built with React that fetches real-time market data, lets users search coins, and visualize prices with interactive charts for quick insights into cryptocurrency trends.",
-    technologies: ["React","Google-Charts", "CoinGecko API"],
+    technologies: ["React","Tailwind CSS", "Google-Charts", "CoinGecko API"],
     github: "https://github.com/vineetsaini007/CryptoRadar"
+  },
+  {
+    title: "Payzo",
+    image: project3,
+    link: "https://payzozo.netlify.app/signup",
+    description:"Payzo is a responsive payment gateway app built with React that enables secure and seamless online transactions.",
+    technologies: ["React","MongoDB", "JWT","Express.js", "zod"],
+    github: "https://github.com/vineetsaini007/Payzo"
   }]
 
 
