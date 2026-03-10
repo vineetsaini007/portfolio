@@ -1,6 +1,8 @@
 import project1 from "../assets/projects/project1.png"
 import project2 from "../assets/projects/project2.png"
 import project3 from "../assets/projects/project3.png"
+import project4 from "../assets/projects/project4.png"
+
 
 export const HERO_CONTENT = `I am a final year student pursuing B.Tech. in Computer Science & Engineering from Delhi Technical Campus , Guru Gobind Singh Indraprastha University.  
 I’m a curious learner and passionate Software Developer in the making. I’m on a journey to turn my love for coding into solutions that make a difference.
@@ -42,6 +44,14 @@ export const PROJECTS = [{
     description:"Payzo is a responsive payment gateway app built with React that enables secure and seamless online transactions.",
     technologies: ["React","MongoDB", "JWT","Express.js", "zod"],
     github: "https://github.com/vineetsaini007/Payzo"
+  },
+  {
+    title: "Aurixa",
+    image: project4,
+    link: "https://aurixaa.com/",
+    description:"Aurixa is a digital solutions agency project offering web development, software solutions, SEO, and media services. Built a modern agency platform using Next.js, React, TypeScript, and Tailwind.",
+    technologies: ["React","Tailwind CSS","Typescript"],
+    github: "https://github.com/vineetsaini007/Aurixa"
   }]
 
 
