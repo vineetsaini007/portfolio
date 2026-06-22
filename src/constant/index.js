@@ -12,8 +12,8 @@ As someone who’s constantly evolving, I’m excited to take on new projects an
 
 export const EXPERIENCES = [
   {
-    year: "July, 2025 - September, 2025",
-    role: "Frontend Developer Intern",
+    year: "July, 2025 - December, 2025",
+    role: "Full Stack Developer Intern",
     company: "Milenium Erectors Pvt. Ltd.",
     certificate: "View Certificate",
     description: `During my internship, I contributed to both frontend development and quality assurance, ensuring high-performance and user-friendly web applications. I designed and developed responsive UI components using HTML, CSS, JavaScript, and modern frameworks, focusing on clean design and seamless user experience across devices. I collaborated closely with designers and backend developers to integrate APIs efficiently and maintain smooth functionality. Additionally, I performed API validation and debugging using Postman, helping reduce backend response errors by 30%. I actively participated in testing and debugging processes, ensuring 95%+ functionality coverage across various user scenarios and devices. Through team meetings and project discussions, I contributed ideas to improve performance and usability, gaining hands-on experience in real-world development workflows and collaborative environments..`,

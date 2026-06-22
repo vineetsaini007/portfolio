@@ -18,7 +18,7 @@ const Experience = () => {
                 transition={{duration: 1}}
                  className="w-full lg:w-1/4">
                 <p className="mb-2 text-sm text-neutral-400">{experience.year}</p>
-                <p className="mb-2 text-sm text-neutral-400"><a href="https://drive.google.com/file/d/1D11GaXGKeBZw6nJCIsZjs81ezU7-rE3f/view?usp=sharing" target="_blank">
+                <p className="mb-2 text-sm text-neutral-400"><a href="https://drive.google.com/file/d/1OXXujfCqaTKO8ZJpq_Hxa_6Wx4ayOHOc/view?usp=drive_link" target="_blank">
                 {experience.certificate}</a></p>
                 </motion.div>
                 <motion.div 
